@@ -1,0 +1,42 @@
+/* Clientes.css */
+
+.table {
+  font-size: 1.1rem; /* Aumenta o tamanho da fonte */
+}
+
+.table th,
+.table td {
+  padding: 1rem; /* Aumenta o espaçamento nas células */
+  vertical-align: middle; /* Centraliza verticalmente */
+}
+
+.table-row {
+  transition: background-color 0.3s ease;
+}
+
+.table-row:hover {
+  background-color: #d1ecf1; /* Realce suave ao passar o mouse */
+}
+
+.table th {
+  background-color: #343a40; /* Cor do cabeçalho */
+  color: white; /* Cor do texto do cabeçalho */
+}
+
+.btn {
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
